@@ -4,3 +4,5 @@ Parcial Practico Duo para la materia Diseño de Sistemas - Universidad Tecnológ
 ## Integrantes 🧑‍💻
 - **Donatella La Valle** - *172.471-0* [Donatella La Valle](https://github.com/donalavalle)
 - **Lautaro Lazo** - *172.258-0* [Lautaro Lazo](https://github.com/Lautaro-L)
+
+-------
