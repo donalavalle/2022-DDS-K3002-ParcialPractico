@@ -6,3 +6,4 @@ Parcial Practico Duo para la materia Diseño de Sistemas - Universidad Tecnológ
 - **Lautaro Lazo** - *172.258-0* [Lautaro Lazo](https://github.com/Lautaro-L)
 
 -------
+UTN-FRBA 2022
