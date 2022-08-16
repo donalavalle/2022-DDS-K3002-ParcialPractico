@@ -1,5 +1,6 @@
 package com.example.a_new_hope.Entity;
 
+
 import com.example.a_new_hope.service.interfaces.Vehiculo;
 
 import javax.persistence.Entity;

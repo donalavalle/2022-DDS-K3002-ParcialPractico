@@ -6,11 +6,10 @@ import com.example.a_new_hope.service.interfaces.Vehiculo;
 import com.example.a_new_hope.Api;
 
 
-public class VehicleFactory {
+public abstract class VehiculoFactory {
     Api interfazApi = Api.getInstance();
     public Vehiculo createVehiculo(String type, String name)
     {
-        //aca deberia consultar a la api para inicializar el vehiculo
         String [] dato;
         if (type == null || type.isEmpty())
             return null;
