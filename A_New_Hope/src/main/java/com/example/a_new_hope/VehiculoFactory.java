@@ -1,9 +1,7 @@
-package com.example.a_new_hope.service.imp;
+package com.example.a_new_hope;
 
 import com.example.a_new_hope.Entity.Nave;
 import com.example.a_new_hope.Entity.Transporte;
-import com.example.a_new_hope.service.interfaces.Vehiculo;
-import com.example.a_new_hope.Api;
 
 
 public abstract class VehiculoFactory {

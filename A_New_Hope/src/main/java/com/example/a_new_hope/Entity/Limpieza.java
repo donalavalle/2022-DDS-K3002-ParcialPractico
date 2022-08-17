@@ -1,8 +1,24 @@
 package com.example.a_new_hope.Entity;
 
-import com.example.a_new_hope.service.interfaces.TipoDeEncargo;
+import javax.persistence.*;
 
+@Entity
+@Table(name = "ENCARGOS")
 public class Limpieza implements TipoDeEncargo {
+    @Id
+    @GeneratedValue(strategy= GenerationType.AUTO)
+    private Integer id;
+
+    public Limpieza() {
+
+    }
+
+    public int getId() {
+        return id;
+    }
+    public void setId(Integer id) {
+        this.id = id;
+    }
     private int precio;
     private int cantidadDePasajerosDeLaNave;
     public Limpieza(int cantidadDePasajerosDeLaNave) {

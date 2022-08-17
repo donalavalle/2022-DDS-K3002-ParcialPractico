@@ -1,4 +1,4 @@
-package com.example.a_new_hope.service.interfaces;
+package com.example.a_new_hope;
 
 public interface Vehiculo {
     public Integer getId();

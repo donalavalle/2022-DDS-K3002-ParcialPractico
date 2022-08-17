@@ -1,16 +1,15 @@
 package com.example.a_new_hope.Entity;
 
-import com.example.a_new_hope.service.interfaces.Servicio;
 
 import javax.persistence.*;
 import java.util.ArrayList;
 @Entity
-@Table(name = "VEHICULOS")
+@Table(name = "COMBO")
 public class Combo extends Servicio {
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
     private Integer id;
-    public Integer getId() {
+    public int getId() {
         return id;
     }
     public void setId(Integer id) {

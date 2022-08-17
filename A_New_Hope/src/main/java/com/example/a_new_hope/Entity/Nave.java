@@ -1,6 +1,6 @@
 package com.example.a_new_hope.Entity;
 
-import com.example.a_new_hope.service.interfaces.Vehiculo;
+import com.example.a_new_hope.Vehiculo;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

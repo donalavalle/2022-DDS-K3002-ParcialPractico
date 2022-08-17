@@ -1,15 +1,21 @@
 package com.example.a_new_hope.Entity;
 
-import com.example.a_new_hope.service.interfaces.Servicio;
-import com.example.a_new_hope.service.interfaces.TipoDeEncargo;
+import net.bytebuddy.implementation.bind.annotation.IgnoreForBinding;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import javax.persistence.Basic;
-import javax.persistence.Entity;
-import javax.persistence.OneToOne;
-
+import javax.persistence.*;
+@Entity
 
 public class Encargo extends Servicio {
+    @Id
+    @GeneratedValue(strategy= GenerationType.AUTO)
+    private Integer id;
+    public int getId() {
+        return id;
+    }
+    public void setId(Integer id) {
+        this.id = id;
+    }
     private String nombreEncargo;
     public Encargo() {}
     public String getEncargo() { return nombreEncargo; }
@@ -17,6 +23,7 @@ public class Encargo extends Servicio {
     public void setEncargo(String encargo) {
         this.nombreEncargo = encargo;
     }
+    @OneToOne
     private  TipoDeEncargo tipoDeEncargo;
 
 
